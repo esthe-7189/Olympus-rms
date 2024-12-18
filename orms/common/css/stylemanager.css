@@ -1,0 +1,2554 @@
+
+/* List with no bullets 
+ ---------------------------------------------------------------------*/
+
+ul.simple
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Beta Message
+ ---------------------------------------------------------------------*/
+.betaMessage
+{
+	background: #eaf3f9;
+	border-bottom: #dedede solid 1px;
+	padding: 5px 0;
+}
+.betaMessage .centered
+{
+	width: 986px;
+	margin: 0 auto;
+}
+.betaMessage .centered .feedback
+{
+	float: left;
+}
+.betaMessage .centered .message
+{
+	float: right;
+}
+
+/* Generic Module "Content Box" Styling
+ ---------------------------------------------------------------------*/
+
+.contentBox
+{
+	margin: 0 0 10px 0;
+}
+.contentBox .inner, .shadow .contentBox .inner, .highlight .contentBox .inner
+{
+	background: #fff;
+	border-right: solid 1px #dedede;
+	border-left: solid 1px #dedede;
+	padding: 18px 17px;
+
+}
+.contentBox .inner .contentBox .inner
+{
+	padding: 10px 14px;
+
+}
+
+.contentBox .innerSpecial
+{
+	background: #fff;
+	overflow: hidden;
+	border-right: solid 1px #dedede;
+	border-left: solid 1px #dedede;
+}
+.contentBox .subContent
+{
+}
+.contentBox .top, .contentBox .top div, .contentBox .bottom, .contentBox .bottom div
+{
+	background-image:  url(../../images/css_img/Layout/RoundedCornerAssets.gif);
+	background-repeat: no-repeat;
+}
+.contentBox .top
+{
+	background-position: 100% 0;
+	height: 5px;
+}
+.contentBox .top div
+{
+	background-position: 0 -10px;
+	height: 5px;
+	min-width: 5px;
+}
+.contentBox .bottom
+{
+	background-position: 100% -5px;
+	height: 5px;
+}
+.contentBox .bottom div
+{
+	background-position: 0 -15px;
+	height: 5px;
+	min-width: 5px;
+}
+
+
+
+/* Light Border Module Styling
+ ---------------------------------------------------------------------*/
+
+.lightBorder .top
+{
+	background-position: 100% -80px;
+}
+.lightBorder .top div
+{
+	background-position: 0 -90px;
+}
+.lightBorder .bottom
+{
+	background-position: 100% -85px;
+}
+.lightBorder .bottom div
+{
+	background-position: 0 -95px;
+}
+.lightBorder .inner
+{
+	border-right: solid 1px #ddedf7;
+	border-left: solid 1px #ddedf7;
+}
+.lightBorder .innerSpecial
+{
+	border-right: solid 1px #ddedf7;
+	border-left: solid 1px #ddedf7;
+}
+.contentBox .lightBorder .topBarActive div
+{
+	background-position: 0 -190px;
+}
+.contentBox .lightBorder .topBarActive
+{
+	background-position: 100% -400px;
+}
+
+/* Success Module Styling
+ ---------------------------------------------------------------------*/
+
+.success .top
+{
+	background-position: 100% -120px;
+}
+.success .top div
+{
+	background-position: 0 -130px;
+}
+.success .bottom
+{
+	background-position: 100% -125px;
+}
+.success .bottom div
+{
+	background-position: 0 -135px;
+}
+.success .inner
+{
+	background: #e8f8dc;
+}
+.success .innerSpecial
+{
+	background: #e8f8dc;
+}
+
+/* Warning Module Styling
+ ---------------------------------------------------------------------*/
+
+.warning .top
+{
+	background-position: 100% -160px;
+}
+.warning .top div
+{
+	background-position: 0 -170px;
+}
+.warning .bottom
+{
+	background-position: 100% -165px;
+}
+.warning .bottom div
+{
+	background-position: 0 -175px;
+}
+.warning .inner
+{
+	background: #f6eace;
+}
+.warning .innerSpecial
+{
+	background: #f6eace;
+}
+
+
+
+/* Soft Grey
+ ---------------------------------------------------------------------*/
+
+.softGrey .top, .softGrey .bottom, .softGrey .top div, .softGrey .bottom div
+{
+	background-image:  url(../../images/css_img/Layout/TableRoundedAssets.gif);
+	background-repeat: no-repeat;
+	
+}
+.softGrey .top
+{
+	background-position: 100% -200px;
+	background-color: #f3f3f3;
+}
+.softGrey .top div
+{
+	background-position: 0 0;
+}
+.softGrey .bottom
+{
+	background-color: #f3f3f3;
+	background-position: 100% -395px;
+}
+
+.softGrey .inner, .contentBox .softGrey .innerSpecial
+{
+	border: none;
+	background: #f3f3f3;
+}
+.softGrey .alternate
+{
+	background: #fff;
+}
+
+
+/* Shadow Module Styling
+ ---------------------------------------------------------------------*/
+
+.shadow .top
+{
+	background-position: 100% -40px;
+}
+.shadow .top div
+{
+	background-position: 0 -50px;
+}
+.shadow .bottom
+{
+	background-position: 100% -45px;
+}
+.shadow .bottom div
+{
+	background-position: 0 -55px;
+}
+.shadow .inner
+{
+	background: #e7e5e5;
+}
+.shadow .innerSpecial
+{
+	background: #e7e5e5;
+}
+
+/* Higlight and Info Box Module Styling
+ ---------------------------------------------------------------------*/
+.highlight .topSpecial, .highlight .topSpecial div, .highlight .bottomSpecial, .highlight .bottomSpecial div
+{
+	background-image:  url(../../images/css_img/Layout/TableRoundedAssets.gif);
+	background-repeat: no-repeat;
+}
+.highlight .topSpecial
+{
+	background-position: 100% -20px;
+	position: relative;
+}
+.highlight .topSpecial div
+{
+	position: relative;
+	background-position: 0 -30px;
+}
+.highlight .bottomSpecial
+{
+	background-position: 100% -25px;
+}
+.highlight .bottomSpecial div
+{
+	background-position: 0 -35px;
+}
+
+.highlight .top, .info .top
+{
+	background-position: 100% -20px;
+}
+.highlight .top div, .info .top div
+{
+	background-position: 0 -30px;
+}
+.highlight .bottom, .info .bottom
+{
+	background-position: 100% -25px;
+}
+.highlight .bottom div, .info .bottom div
+{
+	background-position: 0 -35px;
+}
+.highlight .inner, .info .inner
+{
+	background: #fff; 
+}
+.highlight .innerSpecial, .info .innerSpecial
+{
+	background: #fff;
+}
+
+
+
+/* Compact Content Box
+ ---------------------------------------------------------------------*/
+
+.compact
+{
+	display: table;
+}
+
+/* Title & accordion specific styling
+ ---------------------------------------------------------------------*/
+
+.contentBox .topBarActive, .contentBox .topBarInactive, .contentBox .middleBarActive, .contentBox .middleBarInactive, .contentBox .bottomBarActive, .contentBox .bottomBarInactive
+{
+	background:  url(../../images/css_img/Layout/HeaderBarElementsGlay.png) no-repeat;
+	height: 30px;
+	overflow: hidden;
+	min-width: 100px;	
+}
+
+.contentBox .topBarActive div, .contentBox .topBarInactive div, .contentBox .middleBarActive div, .contentBox .middleBarInactive div, .contentBox .bottomBarActive div, .contentBox .bottomBarInactive div
+{
+	background:  url(../../images/css_img/Layout/HeaderBarTLGlay.png) no-repeat;
+	height: 30px;
+	min-width: 50px;
+}
+.contentBox .topBarActive div
+{
+	background-position: 0 0;
+}
+.contentBox .topBarInactive div
+{
+	background-position: 0 -30px;
+}
+.contentBox .middleBarActive div
+{
+	background-position: 0 -60px;
+}
+.contentBox .middleBarInactive div
+{
+	background-position: 0 -90px;
+}
+.contentBox .bottomBarActive div
+{
+	background-position: 0 -60px;
+}
+.contentBox .bottomBarInactive div
+{
+	background-position: 0 -150px;
+}
+.contentBox .topBarActive
+{
+	background-position: 100% 0;
+}
+.accordion .topBarActive:hover
+{
+	background-position: 100% -30px;
+}
+.contentBox .topBarInactive
+{
+	background-position: 100% -60px;
+}
+.accordion .topBarInactive:hover
+{
+	background-position: 100% -90px;
+}
+.contentBox .middleBarActive
+{
+	background-position: 100% -120px;
+}
+.accordion .middleBarActive:hover
+{
+	background-position: 100% -150px;
+}
+.contentBox .middleBarInactive
+{
+	background-position: 100% -180px;
+}
+.accordion .middleBarInactive:hover
+{
+	background-position: 100% -210px;
+}
+.contentBox .bottomBarActive
+{
+	background-position: 100% -120px;
+}
+.accordion .bottomBarActive:hover
+{
+	background-position: 100% -150px;
+}
+.contentBox .bottomBarInactive
+{
+	background-position: 100% -300px;
+}
+.accordion .bottomBarInactive:hover
+{
+	background-position: 100% -330px;
+}
+.accordion .inner, .accordion .innerSpecial
+{
+	overflow: hidden;
+}
+
+/* Tab Styling
+ ---------------------------------------------------------------------*/
+.tabs .divider
+{
+	background:  url(../../images/css_img/Layout/HeaderBarElementsGlay.png) no-repeat 100% -390px;
+	height: 10px;
+	min-width: 100px;
+}
+.tabs .divider div
+{
+	background:  url(../../images/css_img/Layout/HeaderBarTLGlay.png) no-repeat 0 -180px;
+	height: 10px;
+	min-width: 50px;
+}
+
+.tabs ul
+{
+	margin: 0;
+	padding: 0;
+	height: 30px;
+}
+.tabs ul li
+{
+	display: block;
+	float: left;
+	padding: 0 1px 0 0;
+	margin: 0;
+	background:  url(../../images/css_img/Layout/TabDivider.png) 100% 0;
+}
+.tabs ul li.last
+{
+	background: none;
+	padding: 0;
+}
+.tabs ul li a
+{
+	display: block;
+	float: left;
+	background:  url(../../images/css_img/Layout/HeaderBarElementsGlay.png) no-repeat -50px -60px;
+	height: 11px;
+	padding: 11px 10px 8px 10px;
+	font-size: .9167em;
+	color: #0c2a68;
+}
+.tabs ul li a:hover, .tabs ul li a.active
+{
+	background-position: -50px -360px;
+	text-decoration: none;
+	color: #fff;
+}
+.tabs ul li a.active
+{
+	margin: 0 -1px;
+}
+
+.tabs ul li.first a
+{
+	background-position: 0 -60px;
+}
+.tabs ul li.first a:hover, .tabs ul li.first a.active
+{
+	background-position: 0 -360px;
+}
+.tabs ul li.first a.active
+{
+	margin: 0 -1px 0 0;
+}
+
+.tabs ul li.last a
+{
+	background-position: 100% -60px;
+}
+.tabs ul li.last a:hover, .tabs ul li.last a.active
+{
+	background-position: 100% -360px;
+}
+.tabs ul li.last a.active
+{
+	margin: 0 0 0 -1px;
+}
+
+
+
+/* Sub Tab Styling
+ ---------------------------------------------------------------------*/
+
+.subTabs
+{
+}
+.subTabs ul
+{
+	display: block;
+	margin: 0;
+	padding: 0 0 0 10px;
+	height: 26px;
+	list-style: none;
+	border-bottom: solid 1px #dedede;
+}
+.subTabs ul li
+{
+	display: block;
+	position: relative;
+	bottom: -1px;
+	float: left;
+	margin: 0 3px 0px 0;
+	border-bottom: solid 1px #dedede;
+	width: 100px;
+}
+
+.subTabs ul li.active
+{
+	border-bottom: solid 1px #fff;
+}
+.subTabs ul li a
+{
+	/*text-transform: uppercase;*/
+	width: 100px;
+}
+.subTabs ul li.active a
+{
+	font-weight: bold;
+	color: #444;
+}
+.subTabs ul li .top, .subTabs ul li .top div
+{
+	background:  url(../../images/css_img/Layout/RoundedCornerAssets.gif);
+}
+.subTabs ul li .top
+{
+	background-position: 100% 0;
+	height: 5px;
+}
+.subTabs ul li .top div
+{
+	background-position: 0 -10px;
+	height: 5px;
+	min-width: 5px;
+}
+.subTabs ul li .inner
+{
+	text-align: center;
+	height: 12px;
+	padding: 4px;
+	border-right: solid 1px #dedede;
+	border-left: solid 1px #dedede;
+}
+
+/* Rounded Info Table Styling
+ ---------------------------------------------------------------------*/
+table.softCorners, table.softCorners thead, table.softCorners thead tr
+{
+	width: 100%;
+	margin-bottom: 15px;
+	vertical-align: middle;
+}
+table.softCorners thead tr td, table.softCorners thead th td, table.softCorners tbody tr td, table.softCorners tbody tr th
+{
+	vertical-align: top;
+}
+table.softCorners thead tr
+{
+}
+table.softCorners thead tr, table.softCorners thead tr th.first, table.softCorners tfoot tr, table.softCorners tfoot tr th.first
+{
+	background-image:  url(../../images/css_img/Layout/TableRoundedAssets.gif);
+	background-repeat: no-repeat;
+	height: 5px;
+}
+table.softCorners thead tr
+{
+	background-position: 100% -200px;
+	background-color: #f3f3f3;
+}
+table.softCorners thead tr th.first
+{
+	background-position: 0 0;
+	border-right: solid 2px #fff;
+}
+table.softCorners thead tr th, table.softCorners tfoot tr th
+{
+	border-right:solid 2px #fff;
+	padding-left: 10px;
+	background-color: #f3f3f3;
+}
+table.softCorners thead tr th.last, table.softCorners tfoot tr th.last
+{
+	border-right:none;
+	background:none;
+}
+table.softCorners tfoot tr
+{
+	background-color: #f3f3f3;
+	background-position: 100% -395px;
+}
+table.softCorners tfoot tr th.first
+{
+	background-position: 0 -195px;
+	border-right: solid 2px #fff;
+}
+table.softCorners tbody tr
+{
+	background: #f3f3f3;
+	background-color: #f3f3f3;
+}
+table.softCorners tbody tr.alternate
+{
+	background: #fff;
+}
+table.softCorners tbody tr th, table.softCorners tbody tr td
+{
+	padding: 10px 10px;
+	border-right: solid 2px #fff;
+}
+table.softCorners tbody tr.first th, table.softCorners tbody tr.first td
+{
+	padding: 5px 10px 10px 10px;
+}
+table.softCorners tbody tr th
+{
+	width: 150px;
+}
+table.softCorners tbody tr td.first
+{
+}
+table.softCorners tbody tr td.last
+{
+	border-right: none;
+}
+
+/* Header Layout
+ ---------------------------------------------------------------------
+ ---------------------------------------------------------------------*/
+
+#header #ceiling
+{
+	position: relative;
+	height: 70px;	
+}
+#header .signIn
+{
+	height: 16px;
+	width: 500px;
+	position: absolute;	
+	top: 5px;
+	right: 0;
+	overflow: hidden;
+}
+#header .signIn span.userName, #header .signIn .country, #header .signIn a
+{
+	float: right;
+	margin-right: 8px;
+}
+#header .signIn .country
+{
+	width: 20px;
+	overflow: hidden;
+}
+#header .signIn a.last
+{
+	margin-right: 0;
+}
+#header #ceiling .logoHolder
+{
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+
+#header #ceiling #search
+{
+	height: 45px;
+	width: 566px;
+	position: absolute;
+	left: 250px;
+	top: 0px;
+	right: 0;	
+}
+#header #ceiling #search .advancedSearch
+{
+	font-weight: bold;
+}
+#header #ceiling #search #typeTabs
+{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 386px;
+	float: left;
+	height: 20px;
+}
+#header #ceiling #search #typeTabs li
+{
+	display: inline;
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+}
+#header #ceiling #search .searchError
+{
+	float: right;
+}
+#header #ceiling #search #typeTabs li.first
+{
+}
+
+#header #ceiling #search #typeTabs li.last
+{
+	margin-right: 0;
+}
+#header #ceiling #search #typeTabs li a
+{
+	display: block;
+	float: left;
+	margin-right: 8px;
+	height: 16px;
+	padding: 4px 2px 0 2px;
+	font-size: 11px;
+	cursor: pointer;
+}
+#header #ceiling #search #typeTabs li.active a
+{
+	font-weight: bold;
+	background:  url(../../images/css_img/Layout/SearchIndicatorArrow.gif) 50% 100% no-repeat;
+	color: #444;
+}
+
+#header #ceiling #search #typeTabs li a:hover
+{
+	text-decoration: none;
+	background:  url(../../images/css_img/Layout/SearchIndicatorArrow.gif) 50% 100% no-repeat;
+	color: #48546A;
+}
+
+#header #ceiling #search input.textBox
+{
+	width: 350px;
+	float: left;
+}
+#header #ceiling #search input.buttonLarge
+{	
+	float: ;	
+}
+#header #ceiling .printPage
+{
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+
+
+/* Related Content
+ ---------------------------------------------------------------------*/
+.relatedContent .contentBox
+{
+	float: left;
+}
+.relatedContent .contentBox .inner
+{
+	padding: 2px 6px;
+}
+.relatedContent .inner h5
+{
+	color: #444;
+	margin: 0 0 6px 0;
+	font-weight: normal;
+	font-size: .83333em;
+}
+.relatedContent .inner ul
+{
+	margin: 0;
+	padding: 0;
+}
+.relatedContent .inner ul li
+{
+	display: block;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 0 8px 6px 0;
+	position: relative;
+}
+.relatedContent .inner ul li.last
+{
+	margin: 0 0 6px 0;
+}
+.relatedContent .inner ul li .relatedCount
+{
+	background:  url(../../images/css_img/Layout/Transparent50White.png);
+	position: absolute;
+	bottom: -7px;
+	right: -3px;
+	text-align: right;
+	padding: 1px;
+	display: block;
+	font-size: 8px;
+	cursor: pointer;
+}
+
+/* Button Groups
+ ---------------------------------------------------------------------*/
+.buttonGroupHorizontal a, .buttonGroupHorizontal input
+{
+	float: left;
+	margin-right: 10px;
+}
+.buttonGroupHorizontal a.last, .buttonGroupHorizontal input.last
+{
+	margin-right: 0;
+}
+.buttonGroupVertical a, .buttonGroupVertical input
+{
+}
+.buttonGroupVertical a.last, .buttonGroupVertical input.last
+{
+	margin-top: 10px;
+}
+
+/* Paging and Alpha List
+ ---------------------------------------------------------------------*/
+
+.alphaList h4
+{
+	margin: 0 0 4px 0;
+}
+.innerSpecial .pagingHolder, .inner .pagingHolder
+{
+	float: center;
+}
+.alphaList
+{
+	overflow: visible;
+}
+.alphaList ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.alphaList ul li
+{
+	display: inline;
+	padding: 0;
+}
+.shadow .alphaList ul li a
+{
+	background:  url(../../images/css_img/Layout/PagingBackgroundsGrey.gif);
+}
+
+.pagingHolder
+{
+	margin: 0 0 -2px 0;
+	padding: 2px 0 0 0;
+	overflow: visible;
+}
+.pagingHolder .pageTitle
+{
+	float: left;
+	margin-right: 5px;
+	padding: 4px 0 1px 0;
+	text-transform: uppercase;
+	font-size: .9167em;
+	color: #007ac3;
+}
+.pagingHolder span
+{
+	float: left;
+	overflow: visible;
+}
+.pagingHolder .active
+{
+	color: #fff;
+	background-position: 0 -18px;
+}
+.pagingHolder span span, .pagingHolder span .page, .pagingHolder span a, .pagingHolder span .buttonNext, .pagingHolder span .buttonNextGroup, .pagingHolder span .buttonPrevious, .pagingHolder span .buttonPreviousGroup, .alphaList ul li a
+{
+	background:  url(../../images/css_img/Layout/PagingBackgrounds.gif);
+	overflow: hidden;
+	width: 12px;
+	text-align: center;
+	height: 10px;
+	line-height: 12px;
+	display: block;
+	padding: 4px 3px;
+	z-index: 1;
+	float: left;
+	margin-right: 2px;
+}
+.pagingHolder span a:hover, .alphaList ul li a:hover
+{
+	background-position: 0 -36px;
+	color: #fff;
+	height: 18px;
+	margin: -4px -2px -4px -4px;
+	line-height: 20px;
+	margin: -4px -2px -4px -4px;
+	width: 20px;
+	position: relative;
+	z-index: 99;
+	text-decoration: none;
+}
+/* Action Buttons
+ ---------------------------------------------------------------------*/
+
+.contentBox .actionButtons
+{
+	background: #e7e5e5;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left:17px;
+	height: 20px;
+	position: relative;
+	overflow: visible;
+}
+.contentBox .actionButtons.bottomGroup
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.contentBox .actionButtons .compareArrow
+{
+	position: absolute;
+	right: 7px;
+	top: 13px;
+	z-index: 2;
+}
+.contentBox .actionButtons.bottomGroup .compareArrow
+{
+	top: -4px;
+}
+.contentBox .actionButtons .pageUtilities
+{
+	float: right;
+	display: block;
+}
+.contentBox .actionButtons .requestForAll
+{
+	float: right;
+	margin-right: 10px;
+}
+
+/* Message Box styles
+ ---------------------------------------------------------------------*/
+.info .inner, .success .inner, .warning .inner, .error .inner, .validation
+{
+	background-position: 15px 15px;
+	background-repeat: no-repeat;
+	padding-left: 60px !important;
+}
+.info .inner, .success .inner p, .warning .inner p, .error .inner p, .validation p
+{
+}
+.info .inner
+{
+	color: #1371aa;
+	background-image:  url(../../images/css_img/Layout/info.png);
+}
+.success .inner
+{
+	color: #59a200;
+	background-image:  url(../../images/css_img/Layout/success.png);
+}
+.success .inner h2
+{
+	margin-top: 0;
+	color: #59a200;
+}
+.warning .inner
+{
+	color: #9F6000;
+	background-image:  url(../../images/css_img/Layout/warning.png);
+}
+.error
+{
+	color: #be0000;
+	background-color: #000;
+	background-image:  url(../../images/css_img/Layout/error.png);
+}
+.messagecontainer
+{
+	display: block;
+	width: 100%;
+}
+.messagecontainer img
+{
+	border: none;
+}
+
+/* validation */
+.validation
+{
+	color: #be0000;
+	background-color: #f6cdce;
+	background-image:  url(../../images/css_img/Layout/error.png);
+	padding: 15px 20px 20px 60px;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	border: solid 1px #dedede;
+	margin: 0 0 30px 0;
+}
+.validation ul
+{
+	list-style-type: none;
+}
+.validation li
+{
+	padding: 1px 0;
+}
+
+/* Anouncement Box
+ ---------------------------------------------------------------------*/
+
+.announcementBox h4
+{
+	margin: 4px 0 2px 0;
+	font-size: 12px;
+}
+.announcementBox h4 a
+{
+	line-height: 14px;
+}
+.announcementBox .company
+{
+	font-size: 10px;
+}
+.announcementBox .inner .contentBox .inner
+{
+	height: 140px;
+}
+
+/* Jump Catgeories
+ ---------------------------------------------------------------------*/
+
+.jumpCategory h3 a
+{
+	color: #181818;
+	padding: 0 1.2em 0 0;
+}
+.jumpCategory h3 a:hover
+{
+	color: #555555;
+	text-decoration: none;
+}
+.jumpCategory h3
+{
+	padding: 0;
+	font-size: 1.4167em;
+	margin: 0 0 2px 0;
+	line-height: 1em;
+}
+.jumpCategory .contentBox ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 -.6em 0;
+}
+.jumpCategory .contentBox ul li
+{
+	font-size: 1em;
+	line-height: 1.2em; /*min-height fixes spacing issue in safari*/
+	min-height: 1.2em;
+	padding: 0 0 .6em 0;
+}
+.jumpCategory .subTwoColumn
+{
+	padding: 0 0 2em 0;
+}
+
+
+
+
+/* Column Based Listing
+ ---------------------------------------------------------------------*/
+
+.columnListing
+{
+	list-style-type: none;
+	margin: 0;
+}
+
+/* Old, bad html
+ ---------------------------------------------------------------------*/
+
+.oldDataBaseContent
+{
+	line-height: 1.75em;
+}
+.oldDataBaseContent p
+{
+	margin: 1.75em 0 0 0;
+}
+.buyingTips .oldDataBaseContent img
+{
+	margin: 0 10px 10px 0;
+	border: solid 1px #dedede;
+}
+
+/* Search Control
+ ---------------------------------------------------------------------*/
+
+.searchOneColumn .entry
+{
+	margin: 0 0 1em 0;
+	padding: 0 0 1em 0;
+	border-bottom: 1px solid #dedede;
+}
+.searchOneColumn ul
+{
+	margin: 0 0 5px 0;
+	padding: 0;
+	list-style-type: none;
+}
+.searchOneColumn ul li
+{
+	margin: 0 0 7px 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+.searchOneColumn .entry .result
+{
+	display: block;
+	font-size: 1em;
+}
+
+.searchOneColumn .entry .result a
+{
+}
+
+.searchOneColumn .entry .date
+{
+	display: block;
+	font-size: 0.8em;
+	color: #999;
+}
+.searchOneColumn .resultTitle div
+{
+	float: left;
+}
+.searchOneColumn .resultTitle p
+{
+	margin-bottom: 4px;
+}
+.searchOneColumn .resultTitle .button
+{
+	float: right;
+}
+
+
+.searchOneColumn .exerpt
+{
+	padding-bottom: 1.2em;
+}
+.searchOneColumn h2
+{
+	margin: 4px 0 0px 0;
+}
+
+
+/* Advanced UI */
+
+.searchControls
+{
+	clear: both;
+	padding-top: .6em;
+}
+
+.radioButtonList.left
+{
+	float: left;
+}
+
+.radioButtonList.innerLeft
+{
+	float: left;
+	margin-left: 2.4em;
+}
+
+.radioButtonList br
+{
+	display: block;
+	margin-bottom: .6em;
+}
+
+.searchTextField
+{
+	float: left;
+	width: 298px;
+	margin: 0 10px 0 0;
+}
+
+.searchTextFieldInput
+{
+	width: 298px;
+}
+.searchError
+{
+	float: left;
+}
+.searchButton
+{
+	float: left;
+	margin-left: .6em;
+}
+
+/* Announcement Modules
+ ---------------------------------------------------------------------*/
+#featuredContent
+{
+	height: 325px;
+}
+.featured img
+{
+	border: solid 1px #dedede;
+}
+.featured .inner .more
+{
+	margin: 3px 0;
+	float: right;
+	font-size: 1em;
+}
+
+/* Two Boxes
+ ---------------------------------------------------------------------*/
+/* General Stuff */
+.featured .inner.twoBoxes .subTitle
+{
+	font-size: .916667em;
+}
+.featured .inner.twoBoxes h5
+{
+	margin: 4px 0 4px 0;
+}
+.featured .inner.twoBoxes h5 a
+{
+	line-height: 1.3em;
+}
+
+
+/* Right Hand Side */
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn
+{
+	width: 314px;
+}
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn .column1
+{
+	width: 62px;
+	float: left;
+	margin-right: 10px;
+}
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn .column2
+{
+	width: 200px;
+	margin-right: 10px;
+	float: left;
+}
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn .contentBox .inner
+{
+	padding: 3px 7px;
+	height: 170px;
+}
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn .contentBox
+{
+	margin: 0;
+}
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes
+{
+	padding: 10px 10px 0 10px;
+}
+
+/*- Menu Tabs 5--------------------------- */
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn #tabs5
+{
+	width: 100%;
+	margin: 0 0 0 0;
+}
+ .parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #tabs5 {
+      float:left;
+      width:100%;      
+      font-size:93%;
+      line-height:normal;
+
+      }
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #tabs5 ul {
+          margin:0;
+          padding:0 10px 0 0;
+          list-style:none;
+      }
+ .parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn #tabs5 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+ .parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #tabs5 a {
+      float:left;
+      background:url("../../images/css_img/Layout/tableft5.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn #tabs5 a span {
+      float:left;
+      display:block;
+      background:url("../../images/css_img/Layout/tabright5.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+   
+ .parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #tabs5 a span {float:none;}
+   
+  .parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #tabs5 a:hover span {
+      color:#FFF;
+      }
+  .parentTwoColumn .subContent1 .featured .inner.twoBoxes  .subTwoColumn #tabs5 a:hover {
+      background-position:0% -42px;
+      }
+  .parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #tabs5 a:hover span {
+      background-position:100% -42px;
+      }
+
+   .parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #tabs5 #current a {
+              background-position:0% -42px;
+      }
+   .parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #current a span {
+              background-position:100% -42px;
+      }
+
+.parentTwoColumn .subContent1 .featured .inner.twoBoxes .subTwoColumn  #tablayer {
+      float:left;
+      width:100%;      
+      font-size:93%;
+      line-height:normal;
+	  margin: 4px 0 4px 0;
+
+      }
+
+/*main ************************************************************************************/
+.parentTwoColumn .mainContent .subTwoColumn .column1
+{
+	width: 333px;
+	float: left;
+	margin: 0 21px 0 0;
+}
+.parentTwoColumn .mainContent .subTwoColumn .column2
+{
+	width: 333px;
+	float: left;
+	margin-right: 0px;
+}
+
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn .column1
+{
+	width: 136px;
+	float: left;
+	margin-right: 0px;
+}
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn .column2
+{
+	width: 136px;
+	float: left;
+}
+
+
+
+/* Main Content */
+
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn
+{
+	width: 282px;
+}
+
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn .column1
+{
+	width: 136px;
+	float: left;
+	margin-right: 0px;
+}
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn .column2
+{
+	width: 136px;
+	float: left;
+}
+
+
+
+
+
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn .contentBox .inner
+{
+	border: none;
+	padding: 0;
+}
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn .contentBox .top
+{
+	display: none;
+}
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn .contentBox .bottom
+{
+	display: none;
+}
+.parentTwoColumn .mainContent .featured .inner.twoBoxes .subTwoColumn .contentBox
+{
+	margin: 0;
+}
+.parentTwoColumn .mainContent .featured .inner.twoBoxes
+{
+	padding: 15px 15px 0 15px;
+}
+
+
+
+/*specialized searches*/
+
+
+.featured .inner.twoBoxes .specializedSearches ul
+{
+	list-style: none;
+	margin: 5px;
+	padding: 0;
+}
+.featured .inner.twoBoxes .specializedSearches ul li
+{
+	padding: 0 0 5px 0;
+}
+
+/* Image and Description, Description & Link List
+ ---------------------------------------------------------------------*/
+.subTwoColumn.imageAndDescriptionBg
+{
+	padding-top: 0px;
+	background:url('../../images/bg/bg_question.gif') no-repeat ;margin:0 0 0px 0;    
+	padding-bottom: 0;	
+	height:150px;
+}
+
+.mainOneColum.imageAndDescriptionMain
+{
+	padding-top: 0px;
+	background:url('../../images/bg/bg_act_main.gif') no-repeat right bottom;
+	padding-bottom: 0;	
+	height:150px;
+}
+.mainOneColum.imageAndDescriptionMainSpecial
+{
+	padding-top: 0px;
+	background:url('../../images/bg/bg_main_special02.gif') no-repeat right bottom;
+	padding-bottom: 0;	
+	height:200px;
+}
+
+.subTwoColumn.imageAndDescriptionBg p
+{
+	padding-top: 0px;
+	margin:80px 0 0 0px;
+	padding-bottom: 0;
+	
+}
+
+.featured .inner.imageAndDescription, .featured .inner.linkList, .featured .inner.description
+{
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+.featured .inner.imageAndDescription .more, .featured .inner.linkList .more, .featured .inner.description .more, .featured .inner.twoBoxes .more
+{
+	margin: 6px 0 4px 0;
+	float: right;
+	font-size: 1em;
+}
+.accordion .featured .inner .more
+{
+	margin: 2px 0;
+}
+
+/* Image and Description
+ ---------------------------------------------------------------------*/
+
+.featured .inner.imageAndDescription h5
+{
+	margin-top: 0;
+}
+.featured .inner.imageAndDescription h5 a
+{
+	line-height: 1.3em;
+}
+.featured .inner.imageAndDescription h6
+{
+	font-size: .916667em;
+	font-weight: bold;
+	display: block;
+	margin: 0 0 4px 0;
+}
+.featured .inner.imageAndDescription p
+{
+	font-size: .916667em;
+	margin-bottom: 0;
+	line-height: 1.4em;
+}
+/* Sub Content Area*/
+.parentTwoColumn .subContent1 .featured .inner.imageAndDescription .subTwoColumn .column1, .parentTwoColumn .subContent1 .featured .inner.imageAndDescription .subFourColumn .column1
+{
+	width: 136px;
+	float: left;
+	margin-right: 14px;
+}
+.parentTwoColumn .subContent1 .featured .inner.imageAndDescription .subTwoColumn .column2, .parentTwoColumn .subContent1 .featured .inner.imageAndDescription .subFourColumnColumn .column2_3_4
+{
+	width: 150px;
+	float: left;
+}
+/* Main Content Area*/
+.parentTwoColumn .mainContent .subTwoColumn .featured .inner.imageAndDescription .subTwoColumn
+{
+	width: 279px;
+}
+.parentTwoColumn .mainContent .featured .inner.imageAndDescription .subTwoColumn .column1
+{
+	width: 136px;
+	float: left;
+	margin-right: 14px;
+}
+.parentTwoColumn .mainContent .featured .inner.imageAndDescription .subTwoColumn .column2
+{
+	width: 129px;
+	float: left;
+}
+
+
+/* Description Only
+ ---------------------------------------------------------------------*/
+.featured .inner.description h5
+{
+	margin-top: 0;
+}
+.featured .inner.description h5 a
+{
+	line-height: 1.3em;
+}
+.featured .inner.description h6
+{
+	font-size: .916667em;
+	font-weight: bold;
+	display: block;
+	margin: 0 0 7px 0;
+}
+.featured .inner.description p
+{
+	font-size: 1em;
+	margin-bottom: 0;
+	line-height: 1.4em;
+}
+
+/* Link List
+ ---------------------------------------------------------------------*/
+.featured .description.linkList ul, .featured .imageAndDescription.linkList ul
+{
+	border-top: 1px solid #DDEDF7;
+	margin: 10px 0 0 0;
+}
+.featured .linkList ul
+{
+	color: #0E82C7;
+	font-size: 0.91666em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.featured .linkList ul li
+{
+	border-bottom: 1px solid #DDEDF7;
+	padding: 0.5em 0pt;
+}
+.featured .highlight .linkList ul li, .featured .highlight .linkList ul
+{
+	border-color: #bddbee;
+}
+
+/* Announcement Box
+ ---------------------------------------------------------------------*/
+
+.anncBox img
+{
+	float: left;
+	margin: 0 14px 10px 0;
+}
+
+
+
+/* Disabled Hyperlinks
+ ---------------------------------------------------------------------*/
+a.disabledLink
+{
+	color: #444444;
+	text-decoration: none;
+	cursor: text;
+}
+a.disabledLink:link
+{
+	color: #444444;
+	text-decoration: none;
+}
+a.disabledLink:visited
+{
+	text-decoration: none;
+	color: #444444;
+}
+a.disabledLink:hover
+{
+	text-decoration: none;
+	color: #444444;
+}
+a.disabledLink:active
+{
+	text-decoration: none;
+	color: #444444;
+}
+
+/* Progress Indicator
+ ---------------------------------------------------------------------*/
+
+#progressIndicator
+{
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	margin: -50px 0 0 -50px;
+}
+/* Module 
+ ---------------------------------------------------------------------*/
+
+#TB_window .topBarActive
+{
+	background:  url(../../images/css_img/Layout/HeaderBarElementsGlay.png) no-repeat;
+	height: 30px;
+	min-width: 100px;
+	background-position: 100% 0;
+}
+#TB_window .topBarActive div
+{
+	background:  url(../../images/css_img/Layout/HeaderBarTLGlay.png) no-repeat;
+	height: 30px;
+	min-width: 50px;
+	overflow: hidden;
+}
+#TB_window .topBarActive div
+{
+	background-position: 0 0;
+}
+#TB_window .topBarActive div h3
+{
+	padding: 2px 0 0 18px;
+	margin: 0;
+	font-size: 1.083em;
+	height: 28px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #fff;
+	float: left;
+}
+#TB_window .topBarActive div #TB_closeAjaxWindow
+{
+	height: 30px;
+	line-height: 30px;
+	background: none;
+	float: right;
+	padding: 8px 8px 0 0;
+	width: 170px;
+}
+/*IE 6 Hack*/
+* html #TB_window .topBarActive div #TB_closeAjaxWindow
+{
+	width: 160px;
+}
+#TB_window .topBarActive div #TB_closeAjaxWindow .desc
+{
+	float: left;
+	background: none;
+	padding: 3px 5px 0 0;
+	font-size: 11px;
+}
+#TB_closeAjaxWindow a
+{
+	color: #fff;
+	text-decoration: underline;
+	float: right;
+}
+
+#TB_window .inner, .shadow .contentBox .inner, .highlight .contentBox .inner
+{
+	background: #fff;
+	border-right: solid 1px #dedede;
+	border-left: solid 1px #dedede;
+	padding: 18px 17px;
+}
+#TB_window .inner .contentBox .inner
+{
+	padding: 10px 14px;
+}
+
+#TB_window .bottom, #TB_window .bottom div
+{
+	background:  url(../../images/css_img/Layout/RoundedCornerAssets.gif);
+}
+#TB_window .bottom
+{
+	background-position: 100% -5px;
+	height: 5px;
+}
+#TB_window .bottom div
+{
+	background-position: 0 -15px;
+	height: 5px;
+	min-width: 5px;
+}
+
+/*
+.loginFailureMessage
+{
+	padding-top: 5px;
+	font-size: .8em;
+	color: #8C008C;
+}
+
+.modalButtons .buttonChoose, .modalButtons .buttonCancel
+{
+	float: left;
+}
+.modalButtons
+{
+	margin-top: 20px;
+}
+.modalButtons .buttonChoose
+{
+	margin-right: 10px;
+}
+.modalWindow
+{
+	width: 53.3333em;
+}
+.modalWindow .inner
+{
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 500px;
+}
+
+.infoList.special
+{
+	margin-bottom: 0 !important;
+}
+.popUpLogin .buttonGroup
+{
+	margin-top: 10px;
+}
+.popUpLogin .buttonGroup .button
+{
+	float: right;
+	margin-right: 10px;
+}
+.popUpLogin h2
+{
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+.popUpLogin .buttonGroup .button.last
+{
+	margin-right: 0;
+}
+.popUpLogin table
+{
+	width: 100%;
+}
+.popUpLogin .infoList .formRow
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+.popUpLogin .infoList .formRow .label
+{
+	width: 126px;
+	float: left;
+}
+.popUpLogin .infoList .formRow .input
+{
+	width: 154px;
+	float: left;
+	margin: 0;
+}
+.popUpLogin .infoList .formRow .input .textBox
+{
+	width: 142px;
+}
+.subSignIn h4
+{
+	margin: 0 0 10px 0;
+}
+.popUpLogin .forgotPassword
+{
+	margin-bottom: 5px;
+}
+.popUpLogin .forgotPassword p
+{
+	margin: 0;
+	line-height: 1.2em;
+}
+.popUpLogin .forgotPassword .error
+{
+	line-height:1em;
+	font-size:12px;
+	
+}
+.popUpLogin .contentBox
+{
+	margin-bottom:0;
+	
+}
+
+
+.popUpLogin .forgotPassword .inlineButton
+{
+	margin-top: 10px;
+}
+.popUpLogin .newUser .inlineButton
+{
+	margin-top: 10px;
+}
+.popUpLogin .forgotPassword.infoList .formRow .label
+{
+	width: 90px;
+}
+
+.popUpLogin #userExistingOld
+{
+	display: none;
+}
+.popUpLogin #userExistingNew
+{
+	display: none;
+}
+.popUpLogin #userExistingNew .userNameRow
+{
+	display: none;
+}
+
+.popUpLogin .userInput
+{
+	display: none;
+}
+.popUpLogin #userNotExisting
+{
+	display: none;
+}
+.popUp .popUpLogin .additional
+{
+	text-align: right;
+}
+
+.popUpBody
+{
+	margin: 0;
+	padding: 0;
+}
+.popUp .additional
+{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.popUp .error
+{
+	color: #C92A2A;
+	background: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+.popUp .error ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.popUp
+{
+	text-align: left;
+}
+.popUp .subTwoColumn
+{
+	width: 50.33333em;
+}
+.popUp .subTwoColumn .column1
+{
+	width: 23.75em;
+	float: left;
+	padding-right: 18px;
+}
+.popUp .subTwoColumn .column2
+{
+	width: 23.66667em;
+	float: right;
+}
+.register .formRow
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.register .contentBox
+{
+	margin-bottom: 5px;
+}
+.register .taken
+{
+	font-weight: bold;
+	font-size: 1.25em;
+	margin-bottom: 10px;
+}
+*/
+/* Vendor Comprehensive
+ ---------------------------------------------------------------------*/
+.comprehensive h2
+{
+	margin-top: 0;
+}
+
+
+/* Newsletter Sign Up
+ ---------------------------------------------------------------------*/
+.newsletterSignUp p
+{
+	line-height: 1.2em;
+	margin: 0 0 5px 0;
+}
+.newsletterSignUp .inner
+{
+	padding-bottom: 5px;
+}
+.newsletterSignUp .checkBoxList
+{
+	padding-bottom: 10px;
+}
+.newsletterSignUp .inputFields
+{
+}
+.newsletterSignUp .legal
+{
+	margin-top: 8px;
+	font-size: .91667em;
+}
+.newsletterSignUp .legal a
+{
+	color: #444;
+}
+.newsletterSignUp .inputFields label
+{
+	display: block;
+	padding-bottom: 2px;
+}
+.newsletterSignUp .inputFields .textBox
+{
+	float: left;
+	width: 182px;
+}
+.newsletterSignUp .inputFields .buttonBright
+{
+	float: right;
+}
+.subContent1 .columnCheckBoxList.sub2 label
+{
+	width: 123px;
+	height: 15px;
+	font-size: .916667em;
+}
+.subContent1 .columnCheckBoxList.sub1 label
+{
+	height: 15px;
+	font-size: .916667em;
+}
+.parentTwoColumnSpecial .newsletterSignUp .inputFields .textBox
+{
+	float: left;
+	width: 90px;
+}
+
+/* Selected Products
+ ---------------------------------------------------------------------*/
+.selectedProducts h6
+{
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+.selectedProducts .viewAll
+{
+	text-align: center;
+}
+.selectedProducts ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.selectedProducts ul li
+{
+	padding: 5px 0;
+	border-bottom: solid 1px #dedede;
+}
+.selectedProducts .buttonGroup
+{
+	margin-top: 10px;
+}
+.selectedProducts .buttonGroup .quoteButton
+{
+	float: left;
+}
+.selectedProducts .buttonGroup .compareButton
+{
+	float: right;
+}
+/* Selected Products
+ ---------------------------------------------------------------------*/
+
+ul.relatedList
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul.relatedList li
+{
+	padding-bottom: 4px;
+}
+
+
+/* Company Info
+ ---------------------------------------------------------------------*/
+.companyInformation h3
+{
+	width: 448px;
+	float: left;
+}
+.companyInformation .companyLogo
+{
+	float: right;
+	margin-top: 10px;
+}
+
+.companyInformation h4
+{
+	margin-top: 4px;
+}
+
+.companyInformation .distributor p
+{
+	color: #666;
+	font-size: .91667em;
+	line-height: 1.3em;
+}
+.companyInformation .distributor h5
+{
+	color: #555;
+	margin-top: 5px;
+	font-size: 1em;
+}
+.companyInformation .distributor h3
+{
+	font-size: 1.2em;
+	margin-top: 4px;
+	margin-bottom: 3px;
+	color: #444;
+}
+.companyInformation .distributor h3 a
+{
+	color: #444;
+}
+
+/* Article Tools
+ ---------------------------------------------------------------------*/
+.parentTwoColumn .subContent1 .articleTools
+{
+	margin: 0 0 10px 0;
+	width: 336px;
+	float: none;
+}
+.articleTools
+{
+	width: 160px;
+	float: right;
+	margin: 10px 0 16px 16px;
+}
+.articleTools h5
+{
+	margin-top: 0;
+}
+.articleTools ul
+{
+	margin: 0;
+	padding: 8px 0;
+	list-style-type: none;
+}
+.articleTools ul li
+{
+	padding: 4px 0;
+	border-bottom: solid 1px #dedede;
+}
+.articleTools ul li.last
+{
+	border: none;
+}
+.articleTools ul li a
+{
+	color: #444;
+}
+.articleTools .sponsor
+{
+	width: 88px;
+	float: right;
+}
+.articleTools .sponsor span
+{
+	font-size: 8px;
+	width: 88px;
+	display: block;
+	letter-spacing: .1em;
+	text-align: right;
+}
+
+
+/* Specialized Search
+ ---------------------------------------------------------------------*/
+
+
+.subSearchHolder .buttonLarge
+{
+	margin-left: 10px;
+}
+.subSearchHolder .title a
+{
+	font-size: .91667em;
+	color: #999;
+}
+
+.subSearch .textBox
+{
+	width: 174px;
+	float: left;
+	margin: 0;
+}
+.specialSearch .searchRow
+{
+	padding: 2px 0 0 0;
+	margin: 2px 0 0 0;
+	border-top: solid 1px #dedede;
+}
+.specialSearch .searchRow.first
+{
+	border: none;
+}
+
+/* Search Sizes For Jump Pages */
+.subSearchHolder .title
+{
+	float: left;
+	width: 95px;
+	padding-right: 5px;
+	overflow: hidden;
+}
+
+.specialSearch .selectorDescription
+{
+	float: left;
+	width: 240px;
+}
+.parentTwoColumn .specialSearch .searchField
+{
+	float: right;
+	width: 356px;
+}
+.parentTwoColumn .specialSearch .searchField select
+{
+	width: 356px;
+	margin: 5px 0;
+}
+.subSearchHolder .searchBoxHolder
+{
+	float: right;
+	width: 356px;
+}
+.specialSearch .description a.help
+{
+	overflow: visible;
+	line-height: 12px;
+}
+
+.specialSearch .description
+{
+	float: right;
+	width: 140px;
+	display: block;
+	padding: .2em 0 .4em 0;
+}
+.specialSearch .searchModify
+{
+	clear: both;
+	padding: .5em 0;
+	font-size: .916em;
+	width: 356px;
+}
+.specialSearch .description span
+{
+	line-height: 1.1em;
+	font-size: .916em;
+}
+.specialSearch .inner
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.specialSearch .description a
+{
+	display: inline-block;
+	font-size: .91667em;
+}
+.specialSearch .searchBrowse h4
+{
+	margin: 0 0 3px 0;
+}
+.specialSearch .searchModify .reset
+{
+	float: right;
+}
+.specialSearch .searchModify .options
+{
+	float: left;
+}
+.specialSearch .selectorDescription h4
+{
+	margin: 0;
+}
+.specialSearch .subSearchHolder h4
+{
+	font-size: 1em;
+}
+
+
+/* Search Sizes for Matrix Pages */
+.parentTwoColumnSpecial .specialSearch .selectorDescription
+{
+	width: 280px;
+}
+.parentTwoColumnSpecial .subSearchHolder .title
+{
+	width: 115px;
+}
+
+.parentTwoColumnSpecial .specialSearch .description
+{
+	width: 160px;
+}
+.parentTwoColumnSpecial .subSearchHolder .searchBoxHolder
+{
+	width: 406px;
+}
+.parentTwoColumnSpecial .specialSearch .searchField
+{
+	float: right;
+	width: 406px;
+}
+.parentTwoColumnSpecial .specialSearch .searchModify
+{
+	width: 406px;
+}
+.specialSearch .searchField select
+{
+	width: 406px;
+	margin: 5px 0;
+}
+.parentTwoColumnSpecial .subSearch .textBox
+{
+	width: 224px;
+	margin: 0;
+}
+
+
+/* Search Sizes for GSPD */
+.gspd .specialSearch .subSearchHolder h4
+{
+	margin: 8px 0 0 0;
+	font-size: 1.2em;
+	float: left;
+}
+.gspd .searchBoxHolder
+{
+	width: 500px;
+	margin: 3px 0;
+	text-align: right;
+}
+.gspd .contentBox .inner .contentBox .inner .searchBoxHolder
+{
+	width: 475px;
+}
+.gspd .searchBoxHolder .subSearch .module
+{
+	float: right;
+	margin-left: 5px;
+}
+.gspd .searchBoxHolder .subSearch .required
+{
+	display: block;
+	padding-top: 7px;
+	font-size: 11px;
+}
+.gspd .contentBox .inner .contentBox .inner .searchBoxHolder .subSearch .required
+{
+	padding-top: 0;
+	line-height: 1.1em;
+}
+
+/* Jump Page Specific Styles */
+.jumpCategory .contentBox .searchBrowseTop
+{
+	border-bottom: solid 1px #bbb;
+	padding: 0 0 8px 0;
+	margin: 0 0 10px 0;
+}
+.jumpCategory .contentBox .searchBrowseTop .searchBrowse h4
+{
+	margin: 0 0 3px 0;
+}
+.jumpCategory .contentBox .shadow .inner
+{
+	padding: 5px 17px 10px 17px;
+}
+.jumpCategory .contentBox .alphaList ul
+{
+	margin: 0;
+}
+.jumpCategory .contentBox ul.searchCatRange
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.jumpCategory .contentBox ul.searchCatRange li
+{
+	display: block;
+	float: left;
+	margin: 0 5px 4px 0;
+	padding: 0 5px 0 0;
+	border-right: solid 1px #bbb;
+	min-height: 14px;
+	height: auto;
+}
+.jumpCategory .contentBox ul.searchCatRange li a
+{
+	display: block;
+}
+.jumpCategory .contentBox ul.searchCatRange li.active a
+{
+	color: #444;
+	font-weight: bold;
+}
+.jumpCategory .contentBox ul.searchCatRange li.active a:hover
+{
+	text-decoration: none;
+}
+.jumpCategory ul.searchCatRange li.last
+{
+	border-right: none;
+}
+
+
+/* Spaced List
+ ---------------------------------------------------------------------*/
+
+ul.spacedList
+{
+	list-style-type: none;
+	margin: 7px 0 0 0;
+	padding: 7px 0 0 0;
+	border-top: solid 1px #dedede;
+}
+ul.spacedList li
+{
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+	border-bottom: solid 1px #dedede;
+}
+
+/* Ad Styling
+ ---------------------------------------------------------------------*/
+
+.contentBox.BC_FlashRectangle center, .contentBox.BC_Tower center
+{
+	height: 10px;
+	padding-bottom: 2px;
+	display: block;
+	float: left;
+	font-size: .75em;
+	color: #999;
+}
+.contentBox.BC_FlashRectangle center
+{
+	margin-top: -10px;
+}
+
+.contentBox.BC_FlashRectangle .top, .contentBox.BC_FlashRectangle .bottom
+{
+	display: none;
+}
+.contentBox.BC_FlashRectangle .softGrey .inner
+{
+	background: #fff;
+	border: 0;
+	padding: 0;
+}
+
+
+.contentBox.BC_LeaderBoard center
+{
+	display: none;
+}
+.contentBox.BC_LeaderBoard .inner
+{
+	width: 728px;
+	height: 90px;
+	padding: 0 129px;
+	background: none;
+}
+.contentBox.BC_LeaderBoard .inner div div
+{
+	width: 728px;
+	height: 90px;
+}
+/*main flash area**/
+.contentBox.Main_LeaderBoard center
+{
+	display: none;
+}
+.contentBox.Main_LeaderBoard .inner
+{
+	width: 986px;
+	height: 315px;
+	padding:0 0 0 5px;
+	background: none;
+}
+.contentBox.Main_LeaderBoard .inner div div
+{
+	width: 986px;
+	height: 315px;	
+}
+
+.contentBox.BC_LeaderBoard .top
+{
+	display: none;
+}
+.contentBox.BC_LeaderBoard .bottom
+{
+	display: none;
+}
+
+.contentBox.BC_StandardBanner center
+{
+	display: none;
+}
+.contentBox.BC_StandardBanner .inner
+{
+	width: 468px;
+	height: 60px;
+	padding: 0 259px;
+	background: none;
+}
+.contentBox.BC_StandardBanner .inner div div
+{
+	width: 468px;
+	height: 60px;
+}
+.contentBox.BC_StandardBanner .top
+{
+	display: none;
+}
+.contentBox.BC_StandardBanner .bottom
+{
+	display: none;
+}
+
+.parentTwoColumn .contentBox.BC_Tower .inner
+{
+	padding: 5px 108px;
+}
+.parentTwoColumnSpecial .contentBox.BC_Tower .inner
+{
+	padding: 5px 58px;
+}
+.ppc .inner
+{
+	padding: 5px 10px;
+}
+.ppc span.title
+{
+	font-size: 0.833333em;
+	display: block;
+	margin: -4px 0 2px 0;
+}
+.ppc .adInfo
+{
+	border-top:solid 1px #dedede;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.ppc .adInfo.first
+{
+	border-top:none;
+}
+.ppc .adInfo img
+{
+	width: 76px;
+	float: left;
+	margin-right: 10px;
+}
+.ppc .adInfo .adText
+{
+	float:left;
+	width:632px;
+}
+.ppc .adInfo h6
+{
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+.ppc .adInfo p
+{
+	font-size: .9167em;
+	line-height: 1.33em;
+	margin: 0;
+}
+
+
+/* Pricing Disclaimer
+ ---------------------------------------------------------------------*/
+.pricingDisclaimer p
+{
+	font-size: .83333em;
+}
+
+.solidDuble {
+background:  url(../../images/css_img/Layout/dubleSolid.gif) no-repeat 100% 0;
+}

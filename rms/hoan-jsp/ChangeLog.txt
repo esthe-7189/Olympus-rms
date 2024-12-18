@@ -1,0 +1,16 @@
+CASTLE JSP Version Changlog
+---------------------------
+
+Jan 05 2009
+        - Castle JSP Version 1.0.0 Release!
+
+Feb 09 2009
+        - Castle JSP Version 1.0.1 Release!
+	- UTF-8, eucKR 등의 문자셋 호환성 개선
+
+Jun 29 2009
+        - Castle JSP Version 1.0.2 Release!
+	- 로그 파일 이름 설정시 초기 설정 이름 제한 기능 추가
+	- 설치 과정에서 로그 파일이름 설정 기능 추가
+	- 일부 초기 정책 수정
+	- 미사용(불필요) 소스코드 제거

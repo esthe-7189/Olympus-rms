@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+  <!DOCTYPE taglib
+     PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+     "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+  
+  <taglib>
+     <tlibversion>1.0</tlibversion>
+     <jspversion>1.1</jspversion>
+     <shortname>javacan</shortname>
+     <uri>http://www.javacan.com/mail/mail-taglib</uri>
+     <info>
+        메일 전송을 위한 커스텀 태그 라이브러리
+     </info>
+     
+     <tag>
+        <name>sendMail</name>
+        <tagclass>mira.talib.mail.SendMailTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+        <info>
+           메일을 전송을 위한 커스텀 태그의 최상위 태그.
+        </info>
+        
+        <attribute>
+           <name>smtpServer</name>
+           <required>false</required>
+           <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+           <name>charset</name>
+           <required>false</required>
+           <rtexprvalue>false</rtexprvalue>
+        </attribute>
+     </tag>
+  
+     <tag>
+        <name>from</name>
+        <tagclass>mira.talib.mail.FromTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+        <info>
+           메일을 보내는 사람의 주소를 지정한다.
+        </info>
+     </tag>
+  
+     <tag>
+        <name>to</name>
+        <tagclass>mira.talib.mail.ToTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+        <info>
+           메일을 받는 사람의 주소를 지정한다.
+        </info>
+     </tag>
+  
+     <tag>
+        <name>subject</name>
+        <tagclass>mira.talib.mail.SubjectTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+        <info>
+           주제를 지정한다.
+        </info>
+     </tag>
+  
+     <tag>
+        <name>content</name>
+        <tagclass>mira.talib.mail.ContentTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+        <info>
+           내용을 지정한다.
+        </info>
+        
+        <attribute>
+           <name>html</name>
+           <required>false</required>
+           <rtexprvalue>true</rtexprvalue>
+        </attribute>
+     </tag>
+  
+  </taglib>
+

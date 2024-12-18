@@ -1,0 +1,84 @@
+/* Paging and Alpha List
+ ---------------------------------------------------------------------*/
+
+.alphaList h4
+{
+	margin: 0 0 4px 0;
+}
+.innerSpecial .pagingHolder, .inner .pagingHolder
+{
+	float: center;
+}
+.alphaList
+{
+	overflow: visible;
+}
+.alphaList ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.alphaList ul li
+{
+	display: inline;
+	padding: 0;
+}
+.shadow .alphaList ul li a
+{
+	background:  url(../image/user/PagingBackgroundsGrey.gif);
+}
+
+.pagingHolder
+{
+	margin: 0 0 -2px 0;
+	padding: 2px 0 0 0;
+	overflow: visible;
+}
+.pagingHolder .pageTitle
+{
+	float: left;
+	margin-right: 5px;
+	padding: 4px 0 1px 0;
+	text-transform: uppercase;
+	font-size: .9167em;
+	color: #007ac3;
+}
+.pagingHolder span
+{
+	float: left;
+	overflow: visible;
+}
+.pagingHolder .active
+{
+	color: #fff;
+	background-position: 0 -18px;
+}
+.pagingHolder span span, .pagingHolder span .page, .pagingHolder span a, .pagingHolder span .buttonNext, .pagingHolder span .buttonNextGroup, .pagingHolder span .buttonPrevious, .pagingHolder span .buttonPreviousGroup, .alphaList ul li a
+{
+	background:  url(../image/user/PagingBackgrounds.gif);
+	overflow: hidden;
+	width: 12px;
+	text-align: center;
+	height: 10px;
+	line-height: 12px;
+	display: block;
+	padding: 4px 3px;
+	z-index: 1;
+	float: left;
+	margin-right: 2px;
+}
+.pagingHolder span a:hover, .alphaList ul li a:hover
+{
+	background-position: 0 -36px;
+	color: #fff;
+	height: 18px;
+	margin: -4px -2px -4px -4px;
+	line-height: 20px;
+	margin: -4px -2px -4px -4px;
+	width: 20px;
+	position: relative;
+	z-index: 99;
+	text-decoration: none;
+}
+/******************------------------------**********/

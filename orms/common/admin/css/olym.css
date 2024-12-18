@@ -1,0 +1,125 @@
+/* Buttons
+ ---------------------------------------------------------------------*/
+
+.buttonGeneral, .buttonPageWide, .buttonSpecial, .buttonBright, .buttonBrightLong, .buttonSpecialLong, .buttonClose
+{
+	background:  url(/orms/images/common/buttons01.gif) no-repeat;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: Hiragino Kaku Gothic Pro,MS PMincho,MS Gothic,Arial, Sans-Serif;
+	padding: 0;
+	text-transform: uppercase;
+	text-align: center;
+	border: 0;
+}
+input.buttonGeneral, input.buttonPageWide, input.buttonSpecial, input.buttonBright, input.buttonBrightLong, input.buttonSpecialLong, input.buttonClose
+{
+	font-family: Hiragino Kaku Gothic Pro,MS PMincho,MS Gothic,Arial, Sans-Serif;
+	padding: 0 0 2px 0;
+}
+
+.buttonGeneral:hover, .buttonPageWide:hover, .buttonSpecial:hover, .buttonBright:hover, .buttonBrightLong:hover, .buttonSpecialLong:hover, .buttonClose:hover
+{
+	text-decoration: none;
+}
+.buttonClose
+{
+	color:#ffffff;
+	width:88px;
+	background-position:0 0;
+}
+.buttonClose:hover
+{
+	color:#ffffff;
+	width:88px;
+	background-position:0 -20px;
+}
+.buttonClose:active
+{
+	color:#ffffff;
+	width:88px;
+	background-position:0 -40px;
+}
+.buttonBright
+{
+	color: #ffffff;
+	width: 88px;
+	background-position: 0 -60px;
+}
+
+.buttonBright:hover
+{
+	background-position: 0 -80px;
+}
+
+.buttonBright:active
+{
+	background-position: 0 -100px;
+}
+.buttonSpecial
+{
+	color: #ffffff;
+	width: 88px;
+	background-position: 0 -120px;
+}
+
+.buttonSpecial:hover
+{
+	background-position: 0 -140px;
+}
+
+.buttonSpecial:active
+{
+	background-position: 0 -160px;
+}
+.buttonGeneral
+{
+	color: #ffffff;
+	width: 88px;
+	background-position: 0 -180px;
+}
+
+.buttonGeneral:hover
+{
+	background-position: 0 -200px;
+}
+
+.buttonGeneral:active
+{
+	background-position: 0 -220px;
+}
+.buttonBrightLong
+{
+	color: #ffffff;
+	width: 140px;
+	background-position: 0 -240px;
+}
+
+.buttonBrightLong:hover
+{
+	background-position: 0 -260px;
+}
+
+.buttonBrightLong:active
+{
+	background-position: 0 -280px;
+}
+.buttonSpecialLong
+{
+	color: #ffffff;
+	width: 140px;
+	background-position: 0 -300px;
+}
+
+.buttonSpecialLong:hover
+{
+	background-position: 0 -320px
+}
+
+.buttonSpecialLong:active
+{
+	background-position: 0 -320px;
+}
+

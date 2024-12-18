@@ -1,0 +1,2 @@
+220.127.6.89 - [Tue Feb 23 15:36:15 KST 2010] /rms/admin/bunsho/commentInsert.jsp: GET/POST: name: SQL_Injection 공격 패턴 탐지
+
